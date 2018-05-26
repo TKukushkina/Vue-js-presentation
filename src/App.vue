@@ -88,9 +88,20 @@
   }
 
   .main {
+    position: relative;
     flex-grow: 1;
-    padding: 50px;
     width: calc(100% - 270px);
+    height: 100vh;
+    overflow: auto;
+
+    & > div {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      width: 100%;
+      padding: 50px;
+    }
   }
 
   .title {

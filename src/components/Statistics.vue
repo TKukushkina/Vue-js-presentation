@@ -7,7 +7,7 @@
         <img src="../assets/statistics/2017.png" alt="">
       </div>
     </div>
-    <div class="section">
+    <div>
       <h3>Npm stats</h3>
       <div class="statictics__img">
         <img src="../assets/statistics/npm.png" alt="">

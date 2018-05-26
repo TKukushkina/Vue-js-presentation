@@ -20,6 +20,7 @@ export default {
         'Reactive Interfaces',
         'Declarative Rendering',
         'Data Binding',
+        'Directives',
         'Template Logic',
         'Components & Nesting',
         'Event Handling',
