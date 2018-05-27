@@ -9,6 +9,7 @@ import Simple from './components/Simple.vue';
 import Interpolation from './components/Interpolation.vue';
 import Directives from './components/Directives.vue';
 import Loops from './components/Loops.vue';
+import Conditions from './components/Conditions.vue';
 
 Vue.use(VueRouter);
 
@@ -21,6 +22,7 @@ const routes = [
   { path: '/interpolation', component: Interpolation },
   { path: '/directives', component: Directives },
   { path: '/loops', component: Loops },
+  { path: '/conditions', component: Conditions },
 ]
 
 export default new VueRouter({

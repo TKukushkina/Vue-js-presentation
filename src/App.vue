@@ -30,6 +30,13 @@
     font-weight: normal;
     src: url("./assets/fonts/ProximaNovaRegular.woff");
   }
+
+  @font-face {
+    font-family: Proxima;
+    font-weight: normal;
+    font-style: italic;
+    src: url("./assets/fonts/ProximaNovaRegularItalic.woff");
+  }
   
   @font-face {
     font-family: Proxima;
@@ -115,6 +122,10 @@
 
   .bold {
     font-weight: bold;
+  }
+
+  .italic {
+    font-style: italic;
   }
 
   .text-aling-right {
