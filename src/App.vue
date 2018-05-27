@@ -110,6 +110,7 @@
     font-size: 44px;
     font-weight: 500;
     text-transform: uppercase;
+    text-align: right;
   }
 
   .bold {
@@ -148,6 +149,10 @@
         background-color: #41b883;
       }
     }
+  }
+
+  .mt-3 {
+    margin-top: 30px;
   }
 
   .mt-6 {

@@ -1,12 +1,17 @@
 <template>
   <nav>
-    <div class="logo">
-      <img src="../../assets/logo.png">
+    <div>
+      <div class="logo">
+        <img src="../../assets/logo.png">
+      </div>
+      <router-link to="/">Vue js</router-link>
+      <router-link to="/history">History</router-link>
+      <router-link to="/statistics">Statistics</router-link>
+      <router-link to="/features">Features</router-link>
+      <router-link to="/simple">Simple example</router-link>
+      <router-link to="/interpolation">Interpolation</router-link>
+      <router-link to="/directives">Directives</router-link>
     </div>
-    <router-link to="/">Vue js</router-link>
-    <router-link to="/history">History</router-link>
-    <router-link to="/statistics">Statistics</router-link>
-    <router-link to="/features">Features</router-link>
   </nav>
 </template>
 

@@ -1,11 +1,29 @@
 nav {
-  display: flex;
-  flex-direction: column;
   width: 270px;
   height: 100vh;
   border-right: 1px solid #dadada;
   box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  overflow-x: hidden;
 }
+
+nav > div {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% + 17px);
+  position: relative;
+  left: 10px;
+}
+
+nav::-webkit-scrollbar {
+  width: 3px;
+}
+
+nav::-webkit-scrollbar-thumb {
+  outline: 1px solid transparent;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
 nav .logo {
   margin: 20px auto 50px;
 }
