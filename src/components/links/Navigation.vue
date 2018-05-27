@@ -11,6 +11,7 @@
       <router-link to="/simple">Simple example</router-link>
       <router-link to="/interpolation">Interpolation</router-link>
       <router-link to="/directives">Directives</router-link>
+      <router-link to="/loops">Loops</router-link>
     </div>
   </nav>
 </template>

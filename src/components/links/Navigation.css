@@ -10,9 +10,6 @@ nav {
 nav > div {
   display: flex;
   flex-direction: column;
-  width: calc(100% + 17px);
-  position: relative;
-  left: 10px;
 }
 
 nav::-webkit-scrollbar {

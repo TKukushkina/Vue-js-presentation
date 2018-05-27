@@ -8,6 +8,7 @@ import Features from './components/Features.vue';
 import Simple from './components/Simple.vue';
 import Interpolation from './components/Interpolation.vue';
 import Directives from './components/Directives.vue';
+import Loops from './components/Loops.vue';
 
 Vue.use(VueRouter);
 
@@ -19,6 +20,7 @@ const routes = [
   { path: '/simple', component: Simple },
   { path: '/interpolation', component: Interpolation },
   { path: '/directives', component: Directives },
+  { path: '/loops', component: Loops },
 ]
 
 export default new VueRouter({
