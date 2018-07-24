@@ -10,6 +10,12 @@ import Interpolation from './components/Interpolation.vue';
 import Directives from './components/Directives.vue';
 import Loops from './components/Loops.vue';
 import Conditions from './components/Conditions.vue';
+import Styles from './components/Styles.vue';
+import Functions from './components/Functions.vue';
+import Events from './components/Events.vue';
+import Forms from './components/Forms.vue';
+import Components from './components/Components.vue';
+import Transition from './components/Transition.vue'
 
 Vue.use(VueRouter);
 
@@ -23,6 +29,12 @@ const routes = [
   { path: '/directives', component: Directives },
   { path: '/loops', component: Loops },
   { path: '/conditions', component: Conditions },
+  { path: '/styles', component: Styles },
+  { path: '/functions', component: Functions },
+  { path: '/events', component: Events },
+  { path: '/forms', component: Forms },
+  { path: '/components', component: Components },
+  { path: '/transition', component: Transition },
 ]
 
 export default new VueRouter({

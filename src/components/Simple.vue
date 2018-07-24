@@ -8,7 +8,7 @@
 
 <script>
 export default {
-  data: function() {
+  data() {
     return {
       message: 'Hello Vue.js!'
     }

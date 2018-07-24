@@ -44,7 +44,7 @@ export default {
           "Started in <span class='bold'>late 2013</span>",
           "Feb. 2014 (v0.6) <span class='bold'>First release</span>",
           "<span class='bold'>v1.0.0</span> Oct. 2015",
-          "<span class='bold'>Latest release</span> v2.5.16",
+          "<span class='bold'>Latest release</span> v2.5.17",
         ]
       },
       authorPhoto: 'https://avatars3.githubusercontent.com/u/499550?s=400&v=4',

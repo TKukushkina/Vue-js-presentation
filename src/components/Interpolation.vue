@@ -25,7 +25,7 @@
 <script>
 export default {
   name: 'Interpolation',
-  data: function() {
+  data() {
     return {
       text: "I'm just text inside {{ }}",
       tag: "<span>I don't want you to see my HTML tag</span>",

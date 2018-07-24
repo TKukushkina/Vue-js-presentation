@@ -9,7 +9,7 @@
 export default {
   data() {
     return {
-      text: "<span class='bold'>Directives</span> are instruction for VueJS to do things in a certain way. There are a lot of directives such as <span class='italic'>v-if, v-show, v-else, v-for, v-bind , v-model, v-on, etc.</span>"
+      text: "<span class='bold'>Directives</span> are instruction for VueJS to do things in a certain way. There are a lot of directives such as <span class='italic'>v-if, v-show, v-else, v-for, v-bind, v-model, v-on, etc.</span>"
     }
   }
 }

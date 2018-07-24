@@ -13,6 +13,13 @@
         <img src="../assets/statistics/npm.png" alt="">
       </div>
     </div>
+    <div>
+      <h3>Github stats</h3>
+      <div class="statictics__img">
+        <img src="../assets/statistics/github-react.png" alt="">
+        <img src="../assets/statistics/github-vue.png" alt="">
+      </div>
+    </div>
   </div>
 </template>
 

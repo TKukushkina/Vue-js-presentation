@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <div>
+    <div class='mb-6'>
       <div class="logo">
         <img src="../../assets/logo.png">
       </div>
@@ -13,6 +13,12 @@
       <router-link to="/directives">Directives</router-link>
       <router-link to="/loops">Loops</router-link>
       <router-link to="/conditions">Conditions</router-link>
+      <router-link to="/styles">Styles</router-link>
+      <router-link to="/functions">Functions</router-link>
+      <router-link to="/events">Events</router-link>
+      <router-link to="/forms">Forms</router-link>
+      <router-link to="/components">Components</router-link>
+      <router-link to="/transition">Transition & Animation</router-link>
     </div>
   </nav>
 </template>

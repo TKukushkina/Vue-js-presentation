@@ -2,7 +2,13 @@
   <div id="app">
     <navigation></navigation>
     <div class="main">
-      <router-view></router-view>
+      <router-view>    
+      </router-view>
+      <div class="stripes">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
     </div>
   </div>
 </template>
@@ -69,8 +75,28 @@
     color: #42b983;
   }
 
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    height: 46px;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 0 52px;
+    border-radius: 5px;
+    border: none;
+    background-color: #42b983;
+    cursor: pointer;
+    outline: none;
+  }
+
   .d-flex {
     display: flex;
+  }
+
+  .d-inline-block {
+    display: inline-block;
   }
 
   .flex-direction-column {
@@ -109,6 +135,24 @@
       width: 100%;
       padding: 50px;
     }
+
+    .stripes {
+      position: fixed;
+      left: 270px;
+      padding: 0 65px 0px 50px;
+      display: flex;
+      justify-content: space-between;
+      width: calc(100% - 270px);
+      height: 100%;
+      pointer-events: none;
+      z-index: -1;
+
+      & > div {
+        width: 1px;
+        height: 100%;
+        background-color: #f1f1f1;
+      }
+    }
   }
 
   .title {
@@ -118,6 +162,17 @@
     font-weight: 500;
     text-transform: uppercase;
     text-align: right;
+  }
+
+  .input {
+    border: 0;
+    border-bottom: 2px solid #313131;
+    line-height: 24px;
+    outline: none;
+    padding-left: 10px;
+    width: 100px;
+    font-size: 16px;
+    color: #313131;
   }
 
   .bold {
@@ -168,6 +223,10 @@
 
   .mt-6 {
     margin-top: 60px;
+  }
+
+  .mb-3 {
+    margin-bottom: 30px;
   }
 
   .mb-6 {
